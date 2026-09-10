@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>进入公孙离的身体-王者荣耀角色设定与同人创作指南</title>
+<meta name="description" content="围绕王者荣耀英雄公孙离，梳理角色背景、技能机制、台词语音、皮肤造型与同人创作思路，帮助玩家理解角色设定并找到合适的创作与阅读方向。">
+<meta name="keywords" content="进入公孙离的身体,公孙离,王者荣耀,角色设定,同人创作,英雄攻略">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;background:#f6f2f8;color:#2c2433;line-height:1.75}
+a{text-decoration:none;color:inherit}
+img{max-width:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header.site-header{background:linear-gradient(135deg,#4a2a63 0%,#7b3fa0 55%,#b56fd6 100%);color:#fff;position:relative;overflow:hidden}
+header.site-header::after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:rgba(255,255,255,.08)}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:18px 0;position:relative;z-index:2}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .mark{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#ffd6f0,#ff9ad5);display:flex;align-items:center;justify-content:center;font-weight:700;color:#5a2a72;font-size:18px;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+.brand h1{font-size:20px;font-weight:700;letter-spacing:1px}
+.brand span{display:block;font-size:12px;opacity:.8;font-weight:400;letter-spacing:2px}
+nav.main-nav ul{display:flex;gap:26px;list-style:none;font-size:15px}
+nav.main-nav a{padding:6px 2px;border-bottom:2px solid transparent;transition:.25s}
+nav.main-nav a:hover{border-bottom-color:#ffd6f0;color:#ffeaf8}
+.hero{padding:46px 0 60px;position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.hero-text h2{font-size:34px;line-height:1.35;font-weight:800;margin-bottom:16px;text-shadow:0 2px 12px rgba(0,0,0,.18)}
+.hero-text p{font-size:16px;color:#f3e4fb;margin-bottom:14px}
+.hero-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.hero-tags span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:5px 14px;border-radius:20px;font-size:13px}
+.hero-card{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:18px;padding:24px;backdrop-filter:blur(6px)}
+.hero-card h3{font-size:17px;margin-bottom:14px;color:#ffe6f7}
+.hero-card ul{list-style:none;font-size:14.5px}
+.hero-card li{padding:9px 0;border-bottom:1px dashed rgba(255,255,255,.22);display:flex;justify-content:space-between;gap:12px}
+.hero-card li:last-child{border-bottom:none}
+.hero-card li b{font-weight:600;color:#fff}
+.hero-card li em{font-style:normal;color:#f0d5ff}
+main{display:block}
+section{padding:52px 0}
+.section-head{margin-bottom:28px}
+.section-head h2{font-size:25px;font-weight:800;color:#4a2a63;position:relative;padding-left:16px}
+.section-head h2::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:5px;border-radius:3px;background:linear-gradient(180deg,#b56fd6,#7b3fa0)}
+.section-head p{margin-top:8px;color:#6a5c74;font-size:14.5px}
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.intro-card{background:#fff;border-radius:16px;padding:26px;box-shadow:0 6px 22px rgba(90,42,114,.08);border-top:4px solid #b56fd6}
+.intro-card h3{font-size:18px;color:#5a2a72;margin-bottom:12px}
+.intro-card p{font-size:15px;color:#4a4054;margin-bottom:10px}
+.intro-card p:last-child{margin-bottom:0}
+.skill-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.skill-card{background:#fff;border-radius:14px;padding:20px;box-shadow:0 4px 16px rgba(90,42,114,.07);transition:.25s}
+.skill-card:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(90,42,114,.14)}
+.skill-card .icon{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#f3d6ff,#d79df0);display:flex;align-items:center;justify-content:center;font-weight:700;color:#5a2a72;margin-bottom:12px}
+.skill-card h3{font-size:16px;color:#4a2a63;margin-bottom:8px}
+.skill-card p{font-size:14px;color:#5f5468}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.tabs button{border:1px solid #d9c6e6;background:#fff;color:#5a2a72;padding:8px 18px;border-radius:22px;font-size:14px;cursor:pointer;transition:.2s}
+.tabs button.active,.tabs button:hover{background:#7b3fa0;color:#fff;border-color:#7b3fa0}
+.tab-panel{display:none;background:#fff;border-radius:16px;padding:26px;box-shadow:0 6px 22px rgba(90,42,114,.08)}
+.tab-panel.active{display:block}
+.tab-panel h3{font-size:18px;color:#5a2a72;margin-bottom:12px}
+.tab-panel p{font-size:15px;color:#4a4054;margin-bottom:10px}
+.tab-panel ul{margin:10px 0 0 20px;font-size:14.5px;color:#4a4054}
+.tab-panel li{margin-bottom:8px}
+.skin-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skin-item{background:#fff;border-radius:14px;padding:22px;box-shadow:0 4px 16px rgba(90,42,114,.07);border-left:4px solid #d79df0}
+.skin-item h3{font-size:16px;color:#4a2a63;margin-bottom:8px}
+.skin-item p{font-size:14px;color:#5f5468}
+.quote-block{background:linear-gradient(135deg,#4a2a63,#7b3fa0);color:#fff;border-radius:18px;padding:34px 30px;text-align:center}
+.quote-block blockquote{font-size:19px;line-height:1.9;font-weight:500;max-width:760px;margin:0 auto}
+.quote-block cite{display:block;margin-top:16px;font-size:14px;color:#e6c8f5;font-style:normal}
+.guide-list{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.guide-item{background:#fff;border-radius:14px;padding:22px;box-shadow:0 4px 16px rgba(90,42,114,.07);display:flex;gap:16px}
+.guide-item .num{flex:0 0 36px;height:36px;border-radius:50%;background:#f3d6ff;color:#7b3fa0;display:flex;align-items:center;justify-content:center;font-weight:700}
+.guide-item h3{font-size:16px;color:#4a2a63;margin-bottom:6px}
+.guide-item p{font-size:14px;color:#5f5468}
+.faq-item{background:#fff;border-radius:12px;margin-bottom:14px;box-shadow:0 3px 12px rgba(90,42,114,.06);overflow:hidden}
+.faq-q{padding:18px 22px;font-size:16px;font-weight:600;color:#4a2a63;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-q::after{content:"+";font-size:20px;color:#b56fd6;font-weight:400;transition:.25s}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 22px;font-size:14.5px;color:#5f5468}
+.faq-item.open .faq-a{max-height:300px;padding-bottom:18px}
+.notice{background:#fff6fb;border:1px solid #f0d3e8;border-radius:14px;padding:22px 24px;font-size:14.5px;color:#5a4458}
+.notice strong{color:#7b3fa0}
+footer.site-footer{background:#2c1c38;color:#c9b8d4;padding:40px 0 26px;margin-top:20px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;margin-bottom:26px}
+.footer-grid h4{color:#fff;font-size:15px;margin-bottom:14px}
+.footer-grid p,.footer-grid li{font-size:13.5px;line-height:2;list-style:none}
+.footer-grid a:hover{color:#e6b8ff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;text-align:center;font-size:13px;color:#9c8aa8}
+@media(max-width:960px){
+.hero{grid-template-columns:1fr;padding:34px 0 44px}
+.skill-grid{grid-template-columns:repeat(2,1fr)}
+.skin-list{grid-template-columns:repeat(2,1fr)}
+.intro-grid,.guide-list{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+.topbar{flex-direction:column;gap:14px;align-items:flex-start}
+nav.main-nav ul{gap:16px;flex-wrap:wrap;font-size:14px}
+.hero-text h2{font-size:25px}
+.skill-grid,.skin-list{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr}
+section{padding:38px 0}
+.section-head h2{font-size:21px}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="mark">离</div>
+        <div>
+          <h1>公孙离角色档案站</h1>
+          <span>角色设定 · 技能解析 · 同人创作</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#intro">角色简介</a></li>
+          <li><a href="#skills">技能机制</a></li>
+          <li><a href="#lore">背景与台词</a></li>
+          <li><a href="#skins">皮肤造型</a></li>
+          <li><a href="#create">同人创作</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="hero">
+      <div class="hero-text">
+        <h2>了解公孙离：从角色设定到创作入口</h2>
+        <p>公孙离是《王者荣耀》中定位为射手的英雄，以纸伞、位移与灵动的战斗风格被玩家熟知。许多搜索“进入公孙离的身体”的读者，实际上是想了解她的角色背景、技能手感，或是寻找以她为主角的同人阅读与写作方向。</p>
+        <p>本页整理公开可查的角色资料、玩法要点与创作注意事项，帮助你在不越界、不轻信谣言的前提下，全面认识这名角色。</p>
+        <div class="hero-tags">
+          <span>射手定位</span>
+          <span>纸伞位移</span>
+          <span>角色同人</span>
+          <span>设定考据</span>
+          <span>创作指南</span>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h3>角色关键信息速览</h3>
+        <ul>
+          <li><b>英雄定位</b><em>射手 / 高机动</em></li>
+          <li><b>所属阵营</b><em>尧天</em></li>
+          <li><b>核心机制</b><em>纸伞与位移</em></li>
+          <li><b>常见位置</b><em>发育路</em></li>
+          <li><b>操作难度</b><em>偏高，需练习</em></li>
+          <li><b>创作方向</b><em>剧情 / 插画 / 视频</em></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="intro">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>角色简介：她是谁，为什么受欢迎</h2>
+      <p>先弄清角色本身，再谈创作与阅读，能避免很多误解。</p>
+    </div>
+    <div class="intro-grid">
+      <article class="intro-card">
+        <h3>身份与阵营</h3>
+        <p>在《王者荣耀》的世界观里，公孙离属于“尧天”阵营，与明世隐、弈星、裴擒虎、杨玉环等角色同处一条叙事线。她的形象围绕舞者、纸伞与轻盈的身法展开，性格上既有活泼灵动的一面，也有对自身命运的思考。</p>
+        <p>需要说明的是，游戏世界观会随版本更新、官方活动与衍生内容调整，具体设定请以游戏内文本和官方发布为准，不建议把同人二设当作官方设定传播。</p>
+      </article>
+      <article class="intro-card">
+        <h3>为什么会有人搜索这个关键词</h3>
+        <p>这类搜索通常来自三种需求：一是想了解角色设定与故事；二是想找以公孙离为主角的同人小说、插画或视频；三是想学习她的操作技巧。关键词本身带有明显的想象色彩，但实际对应的内容需求，大多落在“角色资料整理”与“创作入口”上。</p>
+        <p>本页按这三类需求组织内容，同时提醒读者：涉及角色的二次创作应尊重原作设定与平台规则，不传播低俗、侵权或未经证实的说法。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="background:#fff;">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>技能机制：纸伞与位移的核心逻辑</h2>
+      <p>理解机制，才能理解为什么她的操作上限高、观赏性强。</p>
+    </div>
+    <div class="skill-grid">
+      <article class="skill-card">
+        <div class="icon">被</div>
+        <h3>被动 · 印记叠加</h3>
+        <p>普攻会为目标叠加印记，叠满后触发额外效果。持续输出时要注意保持攻击节奏，而不是只追求一次爆发。</p>
+      </article>
+      <article class="skill-card">
+        <div class="icon">1</div>
+        <h3>一技能 · 位移与纸伞</h3>
+        <p>向指定方向位移并留下纸伞，可再次释放回到纸伞位置。这是她灵活走位与拉扯的基础。</p>
+      </article>
+      <article class="skill-card">
+        <div class="icon">2</div>
+        <h3>二技能 · 格挡与伞舞</h3>
+        <p>纸伞环绕飞行，可抵挡飞行物并造成伤害。合理时机使用能有效应对远程消耗。</p>
+      </article>
+      <article class="skill-card">
+        <div class="icon">3</div>
+        <h3>三技能 · 击退与控制</h3>
+        <p>将纸伞推出并击退敌人，可用于开团、自保或打断对方突进，释放方向需要预判。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="lore">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>背景故事与台词：角色魅力的来源</h2>
+      <p>台词与语音是塑造角色气质的重要部分，也是同人创作常用的素材。</p>
+    </div>
+    <div class="tabs">
+      <button class="active" data-tab="tab-story">背景故事</button>
+      <button data-tab="tab-voice">台词风格</button>
+      <button data-tab="tab-play">玩法定位</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-story">
+      <h3>故事线索</h3>
+      <p>公孙离的叙事与尧天阵营紧密相关，她的经历涉及身份、选择与守护等主题。官方通过英雄故事、活动剧情与语音彩蛋逐步展开这些内容，不同版本之间可能存在补充或调整。</p>
+      <p>如果你要写同人，建议先阅读游戏内的英雄故事与相关活动文本，确认时间线和人物关系，再决定是延续官方设定，还是明确标注为架空二设。</p>
+    </div>
+
+    <div class="tab-panel" id="tab-voice">
+      <h3>语音气质</h3>
+      <p>她的语音整体轻快、灵动，带有舞蹈与纸伞意象，偶尔流露出认真与坚定。这种“轻”与“重”的反差，是许多同人作者喜欢展开的方向。</p>
+      <ul>
+        <li>轻快类台词：适合表现日常、互动与轻松向内容。</li>
+        <li>战斗类台词：适合表现紧张、抉择与成长向内容。</li>
+        <li>彩蛋类台词：常与其他英雄产生关联，可作剧情切入点。</li>
+      </ul>
+    </div>
+
+    <div class="tab-panel" id="tab-play">
+      <h3>玩法定位</h3>
+      <p>公孙离通常走发育路，依靠位移频繁调整输出位置。她的强势期与装备、熟练度关系较大，前期需要稳健发育，中后期在团战中寻找安全输出角度。</p>
+      <ul>
+        <li>对线期：利用位移躲避关键技能，注意补刀与视野。</li>
+        <li>团战中：不要第一时间进场，等待对方控制技能交出后再输出。</li>
+        <li>练习建议：先在训练营熟悉纸伞回收距离，再进入匹配实战。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="skins" style="background:#fff;">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>皮肤与造型：视觉风格的多样性</h2>
+      <p>皮肤不仅改变外观，也常带来新的主题与叙事氛围。</p>
+    </div>
+    <div class="skin-list">
+      <article class="skin-item">
+        <h3>经典造型</h3>
+        <p>以纸伞与舞者形象为核心，配色清爽，突出轻盈感，是理解角色基础气质的第一站。</p>
+      </article>
+      <article class="skin-item">
+        <h3>节日主题</h3>
+        <p>围绕传统节日或庆典设计的造型，通常色彩更浓，装饰细节更丰富，适合作为同人插画的参考。</p>
+      </article>
+      <article class="skin-item">
+        <h3>幻想主题</h3>
+        <p>偏向奇幻或未来感的设定，会重塑服装与武器形态，为创作者提供更大的想象空间。</p>
+      </article>
+      <article class="skin-item">
+        <h3>联动与限定</h3>
+        <p>部分造型与特定活动或品牌联动相关，获取方式与时间有限，具体以官方公告为准。</p>
+      </article>
+      <article class="skin-item">
+        <h3>星元部件</h3>
+        <p>可对已有皮肤进行局部替换，改变配色与细节。搭配时注意整体协调，避免元素冲突。</p>
+      </article>
+      <article class="skin-item">
+        <h3>造型与创作</h3>
+        <p>写同人或画插画时，建议注明所参考的皮肤版本，方便读者理解设定背景。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="quote-block">
+      <blockquote>“纸伞轻旋，身影如水——角色的魅力，来自设定与玩家共同完成的想象。”</blockquote>
+      <cite>—— 角色档案站整理</cite>
+    </div>
+  </div>
+</section>
+
+<section id="create">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>同人创作与阅读：从哪里开始</h2>
+      <p>如果你是因为创作或阅读需求来到本页，下面的步骤会更实用。</p>
+    </div>
+    <div class="guide-list">
+      <article class="guide-item">
+        <div class="num">1</div>
+        <div>
+          <h3>先确认设定边界</h3>
+          <p>区分官方设定、常见二设与个人原创。发布时标注清楚，既尊重原作，也方便读者选择。</p>
+        </div>
+      </article>
+      <article class="guide-item">
+        <div class="num">2</div>
+        <div>
+          <h3>选择合适的平台</h3>
+          <p>小说、插画、视频各有适合的发布渠道。先阅读各平台的内容规范，再决定发布形式与标签。</p>
+        </div>
+      </article>
+      <article class="guide-item">
+        <div class="num">3</div>
+        <div>
+          <h3>避免低俗与侵权</h3>
+          <p>不制作、不传播色情低俗内容，不盗用他人作品，不冒用官方名义。这是创作的基本底线。</p>
+        </div>
+      </article>
+      <article class="guide-item">
+        <div class="num">4</div>
+        <div>
+          <h3>注重角色一致性</h3>
+          <p>性格、语气与行为逻辑尽量贴合角色设定，架空设定也要在文内交代清楚，减少读者的理解成本。</p>
+        </div>
+      </article>
+      <article class="guide-item">
+        <div class="num">5</div>
+        <div>
+          <h3>善用标签与简介</h3>
+          <p>清晰的标签能帮助同好找到你的作品，也能提前告知内容倾向，减少不必要的误会。</p>
+        </div>
+      </article>
+      <article class="guide-item">
+        <div class="num">6</div>
+        <div>
+          <h3>理性对待反馈</h3>
+          <p>同人创作是兴趣表达，遇到不同意见时保持沟通，不必把争论升级为人身攻击。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff;">
+  <div class="wrap">
+    <div class="notice">
+      <strong>温馨提示：</strong>网络上以角色为名的内容质量参差不齐，部分标题带有夸张或误导性描述。浏览与分享时请留意来源，不点击不明链接，不下载来源不明的文件。涉及付费内容时，先确认平台资质与退款规则。
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>常见问题</h2>
+      <p>围绕公孙离，读者最常提出的几个问题。</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">公孙离适合新手玩家吗？</div>
+      <div class="faq-a">她的位移机制较多，对走位和技能衔接要求偏高，新手直接上手可能会觉得吃力。建议先在训练营熟悉纸伞位置与技能冷却，再逐步进入实战。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">“进入公孙离的身体”这类说法指什么？</div>
+      <div class="faq-a">这类表述多出现在同人标题或网络讨论中，通常指向以角色为主角的想象性内容。它并非官方设定术语。建议读者以角色资料、技能解析和正规同人作品为主要参考，避免被夸张标题误导。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">在哪里可以看到官方角色故事？</div>
+      <div class="faq-a">游戏内的英雄故事、活动剧情与官方账号发布的内容，是相对可靠的来源。由于版本会更新，具体文本请以游戏内当前显示为准。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">同人创作需要注意什么？</div>
+      <div class="faq-a">核心是三点：不低俗、不侵权、不冒充官方。发布时标注设定来源与内容倾向，尊重其他创作者的劳动成果。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">她的皮肤会影响属性吗？</div>
+      <div class="faq-a">在《王者荣耀》中，皮肤主要改变外观与部分特效表现，通常不提供属性加成。具体规则以游戏内说明为准。</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>公孙离角色档案站</h4>
+        <p>整理角色设定、技能机制、皮肤造型与同人创作注意事项，供玩家与创作者参考。本站为非官方资料页，内容以官方发布为准。</p>
+      </div>
+      <div>
+        <h4>快速导航</h4>
+        <ul>
+          <li><a href="#intro">角色简介</a></li>
+          <li><a href="#skills">技能机制</a></li>
+          <li><a href="#lore">背景与台词</a></li>
+          <li><a href="#skins">皮肤造型</a></li>
+          <li><a href="#create">同人创作</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>内容原则</h4>
+        <ul>
+          <li>不传播未经证实的信息</li>
+          <li>不制作低俗侵权内容</li>
+          <li>尊重原作与创作者</li>
+          <li>以官方设定为参考基准</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2024 公孙离角色档案站 · 本站为角色资料整理与创作指引页面，与游戏官方无隶属关系。
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.tabs button').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.tabs button').forEach(function(b){b.classList.remove('active');});
+    document.querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active');});
+    btn.classList.add('active');
+    var target=document.getElementById(btn.dataset.tab);
+    if(target){target.classList.add('active');}
+  });
+});
+
+document.querySelectorAll('.faq-q').forEach(function(q){
+  q.addEventListener('click',function(){
+    var item=q.parentElement;
+    item.classList.toggle('open');
+  });
+});
+</script>
+
+</body>
+</html>
